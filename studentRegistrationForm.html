@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      label{
+          color: cadetblue;
+      }
+      input[type="text"]{
+          color: coral;
+          text-transform: capitalize;
+          border-color: chocolate;
+      }
+      #formHeading:hover{
+          color: cadetblue;
+      }
+      input[type="submit"]:hover{
+          color: cadetblue;
+      }
+  </style>
+  </head>
+  <body>
+    <h2>Student Registration Form</h2>
+    <fieldset>
+      <legend> Student registration form </legend>
+    <table>
+      <tbody>
+        <form>
+          <tr>
+            <td><label for="">First Name</label></td>
+            <td><input type="text" maxlength="12" placeholder="only first name"/></td>
+          </tr>
+          <tr>
+            <td><label for=""> Your Last Name </label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Email Address </label></td>
+            <td><input type="text" required placeholder="abc.@gmail.com"/></td>
+          </tr>
+          <tr>
+            <td><label for=""> Password</label></td>
+            <td><input type="password" autofocus /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Graduation </label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Date of Birth </label></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Pass out year</label></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Permanant Address</label></td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <td> <label for="">Upload Mark sheets</label> </td>
+            <td> <input type="file" multiple>  </td>
+        </tr>
+
+        <tr>
+            <td><label for="">Upload Profile Photo</label></td>
+            <td> <input type="file"> </td>
+        </tr>
+          <tr>
+            <td><label for="">Select State</label></td>
+            <td>
+                <select>
+                    <option value="MH">Maharashtra </option>
+                    <option value="UP">Uttar Pradesh</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Rajstan">Rajstan</option>
+                    <option value="AP">AP</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+          <td><label for="">Country</label></td>
+          <td> <input type="text" value="India" readonly disabled> </td>
+      </tr>
+        </form>
+      </tbody>
+    </table>
+    <h2>
+      SSO sign in option &nbsp;&nbsp; <a href=""<i class="fa fa-twitter" aria-hidden="true"></i>></a>
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </h2>
+  </body>
+</fieldset>
+</html>

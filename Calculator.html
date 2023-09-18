@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <style>
+        #header{
+            width: 420px;
+            height: 330px;
+            border: 2px solid chocolate;
+            background-color: bisque;
+            display: inline-block;
+            position: relative;
+            left: 300px;
+            top: 200px;
+        }
+        #Disc{
+           text-align: center;
+           font-family: 'Roboto', sans-serif;
+        }
+        #bill,#Discount,#BillAmount,button{
+            font-family: 'Poppins', sans-serif;
+            color: darkred;
+            display: block;
+            margin-top: 20px;
+        }
+        #button{
+            border-radius: 100px;
+            width: 390px;
+            height: 40px;
+            margin: 5px;
+            font-family: 'Poppins', sans-serif; 
+            background-color: #4caf50;
+            text-decoration: white;
+        
+        }
+        #button:hover{
+            background-color: blueviolet;
+           
+        }
+        #Total{
+            font-family: 'Poppins', sans-serif; 
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2 id="Disc">Discount Calculator</h2>
+    <p id="bill">Enter the bill amount and discount in percentage</p>
+    <label for="" id="BillAmount" >Bill Amount</label>
+    <input type="number">
+    <label for="" id="Discount" >Discount Percentage</label>
+    <input type="number">
+    <button id="button">Calculate</button>
+    <p id="Total">Total Discount Amount</p>
+    </div>
+</body>
+</html>
